@@ -1,0 +1,44 @@
+$gcc src/newShell.c -o shell2 -lreadline
+
+$./shell2
+
+Test - Commands:
+
+cd testFiles
+
+help
+
+hello
+
+Windows Commands:
+
+dir 
+
+cls
+
+md TESTRUN
+
+rename TESTRUN test1
+
+rmdir test1 
+
+#pipes also demonstrated
+touch file.txt | gedit file.txt
+
+move file.txt testFiles/file.txt
+
+erase testFiles/file.txt
+
+Run for all basic filetype:
+
+cd testFiles
+
+run hello.c
+
+run hello.java
+
+run hello.py
+
+
+
+exit
